@@ -2,6 +2,6 @@
     <string name="app_name">Google Location Services Demo</string>
 
     <string name="hello_world">Hello world!</string>
-     <string name="location_text">Location Goes Here!</string>
+    <string name="location_text">Location Goes Here!</string>
     <string name="action_settings">Settings</string>
 </resources>
