@@ -68,41 +68,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         mLocationRequest.setInterval(1000);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
 
-        Log.d(TAG, "mLocationRequest VAR: " + mLocationRequest);
-
-//        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
-//                && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-//            // TODO: Consider calling
-//            //    ActivityCompat#requestPermissions
-//            // here to request the missing permissions, and then overriding
-//            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-//            //                                          int[] grantResults)
-//            // to handle the case where the user grants the permission. See the documentation
-//            // for ActivityCompat#requestPermissions for more details.
-//            //
-//            // See: https://developers.google.com/maps/documentation/android-api/location
-//            Log.d(TAG, "Permission mismatch issue");
-//            Location mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
-//                    mGoogleApiClient);
-//            Log.d(TAG, "LastLocation: "+mLastLocation);
-//
-//            return;
-//        }
+        Log.d(TAG, "mLocationRequest: " + mLocationRequest);
         LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-
-
-        // http://developer.android.com/training/location/retrieve-current.html
-//        Location mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
-//                mGoogleApiClient);
-//        Log.d(TAG, "LastLocation: "+mLastLocation);
-//
-//        if (mLastLocation != null) {
-//            String mLatitudeText = null;
-//            String mLongitudeText = null;
-//
-//            txtOutput.setText(mLatitudeText);
-//            //mLongitudeText.setText(String.valueOf(mLastLocation.getLongitude()));
-//        }
     }
 
     @Override
