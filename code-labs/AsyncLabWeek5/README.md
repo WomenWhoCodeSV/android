@@ -13,11 +13,15 @@ Read this, in addition to Porters lecture [http://developer.android.com/referenc
 
 ## Clone and Import into Studio
 
+> (optional) browse to https://github.com/WomenWhoCodeSV/android.git
+and fork this repo to your own remote repo
+
 > mkdir workspace  # any top level
 
 > cd workspace
 
-> git clone https://github.com/WomenWhoCodeSV/android.git
+> git clone your repo to your local repo
+or git clone https://github.com/WomenWhoCodeSV/android.git
 
 
 > cd android/code-labs/AsyncLabWeek5
