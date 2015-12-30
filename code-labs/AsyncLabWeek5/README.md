@@ -12,12 +12,22 @@ The instructions for Porter's lab are in the pdf in toplevel of the lab’s gith
 Read this, in addition to Porters lecture [http://developer.android.com/reference/android/os/AsyncTask.html]
 
 ## Clone and Import into Studio
-```
-mkdir workspace  # any top level
-cd workspace
-git clone https://github.com/WomenWhoCodeSV/android.git
-cd
-```
+
+> mkdir workspace  # any top level
+
+> cd workspace
+
+> git clone https://github.com/WomenWhoCodeSV/android.git
 
 
+> cd android/code-labs/AsyncLabWeek5
 
+
+> In AndroidDevStudio (aka Astudio) Open Project, browse to
+ android/code-labs/AsyncLabWeek5 and open
+
+> setup your emulator or attach your device
+
+> Run project ("gradle 
+
+> Do the lab
