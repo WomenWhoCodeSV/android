@@ -20,8 +20,7 @@ and fork this repo to your own remote repo
 
 > cd workspace
 
-> git clone your repo to your local repo
-or git clone https://github.com/WomenWhoCodeSV/android.git
+> git clone https://github.com/WomenWhoCodeSV/android.git
 
 
 > cd android/code-labs/AsyncLabWeek5
