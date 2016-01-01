@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import porter.skup.net.asynclabweek5.R;
-
 public class FeedFragment extends Fragment {
 
 	private TextView mTextView;

@@ -12,7 +12,6 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 
-import porter.skup.net.asynclabweek5.R;
 
 public class MainActivity extends Activity implements SelectionListener,
 		DownloadFinishedListener {
@@ -98,7 +97,7 @@ public class MainActivity extends Activity implements SelectionListener,
 	// Called back by DownloaderTask after data has been loaded
     @Override  //DownloadFinishedListener
 	public void notifyDataRefreshed(String[] feeds) {
-        System.out.println("99  IN DownloadFinishedListener.notifyDataRefreshed 99 "+feeds[0].length());
+        System.out.println("Solution: DownloadFinishedListener.notifyDataRefreshed "+feeds[0].length());
 		// Process downloaded data
 		parseJSON(feeds);
 	

@@ -1,4 +1,4 @@
-package porter.skup.net.asynclabweek5;
+package course.labs.asynctasklab;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
