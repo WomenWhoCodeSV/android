@@ -34,3 +34,12 @@ and fork this repo to your own remote repo
 > Run project ("gradle 
 
 > Do the lab
+
+## Get remote data via Asych HTTP URL 
+
+Branch httpDownloadTask instead get its data from remote google app engine. 
+
+Our top level README has instructions to create google app engine site.
+For example, gets Taylor Swift data from remote https://readonlystorage.appspot.com/tswift.json
+
+https://github.com/WomenWhoCodeSV/android/tree/httpDownloadTask/code-labs/AsyncLabWeek5
