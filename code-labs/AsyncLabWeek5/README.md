@@ -1,4 +1,4 @@
-# Week1: Instructions for Porter’s Async Lab
+# Week1: Instructions for Porter’s AsyncTask Lab
 Our lab is Programming Mobile Applications for Android Handheld Systems: Part 2 by Dr. Adam Porter
 
 ## Gotchas
@@ -35,7 +35,7 @@ and fork this repo to your own remote repo
 
 > Do the lab
 
-## Get remote data via Asych HTTP URL 
+## Get remote data via AsyncTask HTTP URL 
 
 Branch httpDownloadTask instead get its data from remote google app engine. 
 
