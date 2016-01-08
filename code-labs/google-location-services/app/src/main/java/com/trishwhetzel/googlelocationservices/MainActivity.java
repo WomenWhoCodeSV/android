@@ -43,7 +43,8 @@ public class MainActivity extends ActionBarActivity implements GoogleApiClient.C
         Log.d(TAG, "onLocationChanged() called");
         Log.i(TAG, "Location: " + location.toString());
         //txtOutput.setText(location.toString());
-        txtOutput.setText(Double.toString(location.getLatitude()));
+        txtOutput.setText("Latitude: "+Double.toString(location.getLatitude())+
+                "\nLongitude: "+Double.toString(location.getLongitude()));
     }
 
     @Override
