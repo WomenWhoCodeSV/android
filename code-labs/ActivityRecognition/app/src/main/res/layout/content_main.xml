@@ -9,23 +9,31 @@
         android:id="@+id/request_activity_updates_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:onClick="requestActivityUpdatesButtonHandler"
-        android:text="@string/request_activity_updates" />
+        android:text="@string/request_activity_updates"
+        android:layout_alignTop="@+id/remove_activity_updates_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/remove_activity_updates_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:onClick="removeActivityUpdatesButtonHandler"
-        android:text="@string/remove_activity_updates" />
+        android:text="@string/remove_activity_updates"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/detectedActivities"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/detected_activities_title"
+        android:layout_marginTop="49dp"
         android:layout_below="@+id/request_activity_updates_button"
-        android:text="@string/detected_activities_title"/>
+        android:layout_alignRight="@+id/remove_activity_updates_button"
+        android:layout_alignEnd="@+id/remove_activity_updates_button" />
 
 </RelativeLayout>
