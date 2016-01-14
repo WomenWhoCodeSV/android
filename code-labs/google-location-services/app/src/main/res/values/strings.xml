@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Google Location Services Demo</string>
+    <string name="app_name">LocationUpdates WWC-SV Demo</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="location_text">Location Goes Here!</string>
